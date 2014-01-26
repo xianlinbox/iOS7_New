@@ -22,6 +22,13 @@
 		49ACB3A2188E50260013B0B1 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49ACB386188E50250013B0B1 /* CoreData.framework */; };
 		49ACB3AA188E50260013B0B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49ACB3A8188E50260013B0B1 /* InfoPlist.strings */; };
 		49ACB3AC188E50260013B0B1 /* iOS7_NewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ACB3AB188E50260013B0B1 /* iOS7_NewTests.m */; };
+		49ACB3BB188E5CB30013B0B1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ACB3B9188E5CB30013B0B1 /* MainViewController.m */; };
+		49ACB3BC188E5CB30013B0B1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49ACB3BA188E5CB30013B0B1 /* MainViewController.xib */; };
+		49E2FA21188FE2F800CE6BDF /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2FA20188FE2F800CE6BDF /* BallView.m */; };
+		49E2FA22188FE2F800CE6BDF /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2FA20188FE2F800CE6BDF /* BallView.m */; };
+		49E2FA25188FE84600CE6BDF /* NewtonsCradleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2FA24188FE84600CE6BDF /* NewtonsCradleView.m */; };
+		49E2FA26188FE84600CE6BDF /* NewtonsCradleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2FA24188FE84600CE6BDF /* NewtonsCradleView.m */; };
+		49E8E98C189125F80009A871 /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E8E98B189125F80009A871 /* DynamicViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		49ACB3A7188E50260013B0B1 /* iOS7_NewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7_NewTests-Info.plist"; sourceTree = "<group>"; };
 		49ACB3A9188E50260013B0B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		49ACB3AB188E50260013B0B1 /* iOS7_NewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS7_NewTests.m; sourceTree = "<group>"; };
+		49ACB3B8188E5CB30013B0B1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		49ACB3B9188E5CB30013B0B1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		49ACB3BA188E5CB30013B0B1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		49E2FA1F188FE2F800CE6BDF /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		49E2FA20188FE2F800CE6BDF /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		49E2FA23188FE84600CE6BDF /* NewtonsCradleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonsCradleView.h; sourceTree = "<group>"; };
+		49E2FA24188FE84600CE6BDF /* NewtonsCradleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonsCradleView.m; sourceTree = "<group>"; };
+		49E8E98A189125F80009A871 /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
+		49E8E98B189125F80009A871 /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +131,9 @@
 		49ACB388188E50260013B0B1 /* iOS7_New */ = {
 			isa = PBXGroup;
 			children = (
+				49E2FA1C188FE28500CE6BDF /* UIDynamic */,
+				49ACB3B6188E5C7D0013B0B1 /* ViewController */,
+				49ACB3B5188E504B0013B0B1 /* View */,
 				49ACB391188E50260013B0B1 /* AppDelegate.h */,
 				49ACB392188E50260013B0B1 /* AppDelegate.m */,
 				49ACB397188E50260013B0B1 /* Images.xcassets */,
@@ -151,6 +170,52 @@
 				49ACB3A8188E50260013B0B1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49ACB3B5188E504B0013B0B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		49ACB3B6188E5C7D0013B0B1 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49ACB3B8188E5CB30013B0B1 /* MainViewController.h */,
+				49ACB3B9188E5CB30013B0B1 /* MainViewController.m */,
+				49ACB3BA188E5CB30013B0B1 /* MainViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		49E2FA1C188FE28500CE6BDF /* UIDynamic */ = {
+			isa = PBXGroup;
+			children = (
+				49E2FA1E188FE2BC00CE6BDF /* View */,
+				49E2FA1D188FE29F00CE6BDF /* ViewController */,
+			);
+			name = UIDynamic;
+			sourceTree = "<group>";
+		};
+		49E2FA1D188FE29F00CE6BDF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49E8E98A189125F80009A871 /* DynamicViewController.h */,
+				49E8E98B189125F80009A871 /* DynamicViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		49E2FA1E188FE2BC00CE6BDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49E2FA1F188FE2F800CE6BDF /* BallView.h */,
+				49E2FA20188FE2F800CE6BDF /* BallView.m */,
+				49E2FA23188FE84600CE6BDF /* NewtonsCradleView.h */,
+				49E2FA24188FE84600CE6BDF /* NewtonsCradleView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49ACB38D188E50260013B0B1 /* InfoPlist.strings in Resources */,
+				49ACB3BC188E5CB30013B0B1 /* MainViewController.xib in Resources */,
 				49ACB398188E50260013B0B1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,9 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49E2FA25188FE84600CE6BDF /* NewtonsCradleView.m in Sources */,
 				49ACB393188E50260013B0B1 /* AppDelegate.m in Sources */,
 				49ACB38F188E50260013B0B1 /* main.m in Sources */,
 				49ACB396188E50260013B0B1 /* iOS7_New.xcdatamodeld in Sources */,
+				49ACB3BB188E5CB30013B0B1 /* MainViewController.m in Sources */,
+				49E2FA21188FE2F800CE6BDF /* BallView.m in Sources */,
+				49E8E98C189125F80009A871 /* DynamicViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +329,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49ACB3AC188E50260013B0B1 /* iOS7_NewTests.m in Sources */,
+				49E2FA26188FE84600CE6BDF /* NewtonsCradleView.m in Sources */,
+				49E2FA22188FE2F800CE6BDF /* BallView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +523,7 @@
 				49ACB3B1188E50260013B0B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49ACB3B2188E50260013B0B1 /* Build configuration list for PBXNativeTarget "iOS7_NewTests" */ = {
 			isa = XCConfigurationList;
@@ -459,6 +532,7 @@
 				49ACB3B4188E50260013B0B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
