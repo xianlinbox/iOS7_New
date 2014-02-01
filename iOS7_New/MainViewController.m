@@ -40,4 +40,10 @@
     [self.navigationController pushViewController:dynamicViewController animated:false];
 }
 
+-(IBAction)showNSURLSessionDemo:(id)sender
+{
+    UrlSessionDemoViewController  *urlViewController = [[UrlSessionDemoViewController alloc] initWithNibName:@"UrlSessionDemoViewController" bundle:nil];
+    [self.navigationController pushViewController:urlViewController animated:false];
+}
+
 @end

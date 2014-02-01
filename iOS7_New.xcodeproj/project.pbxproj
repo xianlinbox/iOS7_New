@@ -29,6 +29,8 @@
 		49E2FA25188FE84600CE6BDF /* NewtonsCradleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2FA24188FE84600CE6BDF /* NewtonsCradleView.m */; };
 		49E2FA26188FE84600CE6BDF /* NewtonsCradleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2FA24188FE84600CE6BDF /* NewtonsCradleView.m */; };
 		49E8E98C189125F80009A871 /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E8E98B189125F80009A871 /* DynamicViewController.m */; };
+		49F8AB40189CF349009D1985 /* UrlSessionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F8AB3E189CF349009D1985 /* UrlSessionDemoViewController.m */; };
+		49F8AB41189CF349009D1985 /* UrlSessionDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F8AB3F189CF349009D1985 /* UrlSessionDemoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,9 @@
 		49E2FA24188FE84600CE6BDF /* NewtonsCradleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonsCradleView.m; sourceTree = "<group>"; };
 		49E8E98A189125F80009A871 /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
 		49E8E98B189125F80009A871 /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
+		49F8AB3D189CF349009D1985 /* UrlSessionDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UrlSessionDemoViewController.h; path = NSURLSession/ViewController/UrlSessionDemoViewController.h; sourceTree = "<group>"; };
+		49F8AB3E189CF349009D1985 /* UrlSessionDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UrlSessionDemoViewController.m; path = NSURLSession/ViewController/UrlSessionDemoViewController.m; sourceTree = "<group>"; };
+		49F8AB3F189CF349009D1985 /* UrlSessionDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UrlSessionDemoViewController.xib; path = NSURLSession/ViewController/UrlSessionDemoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +136,7 @@
 		49ACB388188E50260013B0B1 /* iOS7_New */ = {
 			isa = PBXGroup;
 			children = (
+				49F8AB3C189CF2E0009D1985 /* NSURLSession */,
 				49E2FA1C188FE28500CE6BDF /* UIDynamic */,
 				49ACB3B6188E5C7D0013B0B1 /* ViewController */,
 				49ACB3B5188E504B0013B0B1 /* View */,
@@ -218,6 +224,24 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		49F8AB3C189CF2E0009D1985 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				49F8AB42189CF375009D1985 /* ViewController */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		49F8AB42189CF375009D1985 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49F8AB3D189CF349009D1985 /* UrlSessionDemoViewController.h */,
+				49F8AB3E189CF349009D1985 /* UrlSessionDemoViewController.m */,
+				49F8AB3F189CF349009D1985 /* UrlSessionDemoViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F8AB41189CF349009D1985 /* UrlSessionDemoViewController.xib in Resources */,
 				49ACB38D188E50260013B0B1 /* InfoPlist.strings in Resources */,
 				49ACB3BC188E5CB30013B0B1 /* MainViewController.xib in Resources */,
 				49ACB398188E50260013B0B1 /* Images.xcassets in Resources */,
@@ -318,6 +343,7 @@
 				49ACB393188E50260013B0B1 /* AppDelegate.m in Sources */,
 				49ACB38F188E50260013B0B1 /* main.m in Sources */,
 				49ACB396188E50260013B0B1 /* iOS7_New.xcdatamodeld in Sources */,
+				49F8AB40189CF349009D1985 /* UrlSessionDemoViewController.m in Sources */,
 				49ACB3BB188E5CB30013B0B1 /* MainViewController.m in Sources */,
 				49E2FA21188FE2F800CE6BDF /* BallView.m in Sources */,
 				49E8E98C189125F80009A871 /* DynamicViewController.m in Sources */,

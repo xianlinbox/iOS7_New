@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "DynamicViewController.h"
+#import "UrlSessionDemoViewController.h"
 
 @interface MainViewController : UIViewController
 
@@ -15,5 +16,6 @@
 @property (nonatomic,weak) UIViewController *dynamicViewController;
 
 -(IBAction)showUIDynamicDemo:(id)sender;
+-(IBAction)showNSURLSessionDemo:(id)sender;
 
 @end
