@@ -15,7 +15,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "100"
             endingLineNumber = "100"
-            landmarkName = "-URLSession:downloadTask:didFinishDownloadingToURL:"
+            landmarkName = "-copyTempFileAtURL:toDestination:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -32,6 +32,22 @@
             startingLineNumber = "107"
             endingLineNumber = "107"
             landmarkName = "-URLSession:downloadTask:didFinishDownloadingToURL:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOS7_New/MultiTask/ViewController/BackgroundFetchViewController.m"
+            timestampString = "413545607.170351"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "-showImageWithURL:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

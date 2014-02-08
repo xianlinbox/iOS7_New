@@ -18,7 +18,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Custom initialization
+        self.backgroundFetchViewController = [[BackgroundFetchViewController alloc] initWithNibName:@"BackgroundFetchViewController" bundle:nil];
     }
     return self;
 }
@@ -26,13 +26,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 -(IBAction)showUIDynamicDemo:(id)sender{
@@ -44,6 +42,19 @@
 {
     UrlSessionDemoViewController  *urlViewController = [[UrlSessionDemoViewController alloc] initWithNibName:@"UrlSessionDemoViewController" bundle:nil];
     [self.navigationController pushViewController:urlViewController animated:false];
+}
+
+-(IBAction)showBackgroundFetchDemo:(id)sender
+{
+    NSLog(@"%@",self.backgroundFetchViewController.imageView.image);
+    [self.navigationController pushViewController:self.backgroundFetchViewController animated:false];
+}
+
+-(void)fetchImageWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
+{
+    //调用子UIViewController的方法刷新UI
+    NSLog(@"main controller called fetch");
+    [self.backgroundFetchViewController initImageViewWithCompletionHandler:completionHandler];
 }
 
 @end

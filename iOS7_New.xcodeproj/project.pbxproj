@@ -24,6 +24,8 @@
 		49ACB3AC188E50260013B0B1 /* iOS7_NewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ACB3AB188E50260013B0B1 /* iOS7_NewTests.m */; };
 		49ACB3BB188E5CB30013B0B1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ACB3B9188E5CB30013B0B1 /* MainViewController.m */; };
 		49ACB3BC188E5CB30013B0B1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49ACB3BA188E5CB30013B0B1 /* MainViewController.xib */; };
+		49C68B9618A5A6030042EE8A /* BackgroundFetchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C68B9418A5A6030042EE8A /* BackgroundFetchViewController.m */; };
+		49C68B9718A5A6030042EE8A /* BackgroundFetchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49C68B9518A5A6030042EE8A /* BackgroundFetchViewController.xib */; };
 		49E2FA21188FE2F800CE6BDF /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2FA20188FE2F800CE6BDF /* BallView.m */; };
 		49E2FA22188FE2F800CE6BDF /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2FA20188FE2F800CE6BDF /* BallView.m */; };
 		49E2FA25188FE84600CE6BDF /* NewtonsCradleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2FA24188FE84600CE6BDF /* NewtonsCradleView.m */; };
@@ -65,6 +67,9 @@
 		49ACB3B8188E5CB30013B0B1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		49ACB3B9188E5CB30013B0B1 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		49ACB3BA188E5CB30013B0B1 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		49C68B9318A5A6030042EE8A /* BackgroundFetchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BackgroundFetchViewController.h; path = MultiTask/ViewController/BackgroundFetchViewController.h; sourceTree = "<group>"; };
+		49C68B9418A5A6030042EE8A /* BackgroundFetchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BackgroundFetchViewController.m; path = MultiTask/ViewController/BackgroundFetchViewController.m; sourceTree = "<group>"; };
+		49C68B9518A5A6030042EE8A /* BackgroundFetchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = BackgroundFetchViewController.xib; path = MultiTask/ViewController/BackgroundFetchViewController.xib; sourceTree = "<group>"; };
 		49E2FA1F188FE2F800CE6BDF /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
 		49E2FA20188FE2F800CE6BDF /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
 		49E2FA23188FE84600CE6BDF /* NewtonsCradleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewtonsCradleView.h; sourceTree = "<group>"; };
@@ -136,6 +141,7 @@
 		49ACB388188E50260013B0B1 /* iOS7_New */ = {
 			isa = PBXGroup;
 			children = (
+				49C68B9118A59EC80042EE8A /* MultiTask */,
 				49F8AB3C189CF2E0009D1985 /* NSURLSession */,
 				49E2FA1C188FE28500CE6BDF /* UIDynamic */,
 				49ACB3B6188E5C7D0013B0B1 /* ViewController */,
@@ -191,6 +197,24 @@
 				49ACB3B8188E5CB30013B0B1 /* MainViewController.h */,
 				49ACB3B9188E5CB30013B0B1 /* MainViewController.m */,
 				49ACB3BA188E5CB30013B0B1 /* MainViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		49C68B9118A59EC80042EE8A /* MultiTask */ = {
+			isa = PBXGroup;
+			children = (
+				49C68B9218A59FED0042EE8A /* ViewController */,
+			);
+			name = MultiTask;
+			sourceTree = "<group>";
+		};
+		49C68B9218A59FED0042EE8A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49C68B9318A5A6030042EE8A /* BackgroundFetchViewController.h */,
+				49C68B9418A5A6030042EE8A /* BackgroundFetchViewController.m */,
+				49C68B9518A5A6030042EE8A /* BackgroundFetchViewController.xib */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -289,6 +313,13 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = xianlinbox;
 				TargetAttributes = {
+					49ACB37C188E50250013B0B1 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
 					49ACB39C188E50260013B0B1 = {
 						TestTargetID = 49ACB37C188E50250013B0B1;
 					};
@@ -319,6 +350,7 @@
 			files = (
 				49F8AB41189CF349009D1985 /* UrlSessionDemoViewController.xib in Resources */,
 				49ACB38D188E50260013B0B1 /* InfoPlist.strings in Resources */,
+				49C68B9718A5A6030042EE8A /* BackgroundFetchViewController.xib in Resources */,
 				49ACB3BC188E5CB30013B0B1 /* MainViewController.xib in Resources */,
 				49ACB398188E50260013B0B1 /* Images.xcassets in Resources */,
 			);
@@ -347,6 +379,7 @@
 				49ACB3BB188E5CB30013B0B1 /* MainViewController.m in Sources */,
 				49E2FA21188FE2F800CE6BDF /* BallView.m in Sources */,
 				49E8E98C189125F80009A871 /* DynamicViewController.m in Sources */,
+				49C68B9618A5A6030042EE8A /* BackgroundFetchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
