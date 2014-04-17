@@ -10,6 +10,9 @@
 #import "DynamicViewController.h"
 #import "UrlSessionDemoViewController.h"
 #import "BackgroundFetchViewController.h"
+#import "AVspeechViewController.h"
+#import "FromViewController.h"
+#import "iBeaconViewController.h"
 
 @interface MainViewController : UIViewController
 
@@ -20,6 +23,9 @@
 -(IBAction)showUIDynamicDemo:(id)sender;
 -(IBAction)showNSURLSessionDemo:(id)sender;
 -(IBAction)showBackgroundFetchDemo:(id)sender;
+-(IBAction)showAVSpeechDemo:(id)sender;
+-(IBAction)showVCTransitions:(id)sender;
+-(IBAction)showiBeacondemo:(id)sender;
 
 -(void)fetchImageWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler;
 

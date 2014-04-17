@@ -50,11 +50,30 @@
     [self.navigationController pushViewController:self.backgroundFetchViewController animated:false];
 }
 
+-(IBAction)showAVSpeechDemo:(id)sender
+{
+    AVspeechViewController *viewController = [[AVspeechViewController alloc] initWithNibName:@"AVspeechViewController" bundle:nil];
+    [self.navigationController pushViewController:viewController animated:false];
+}
+
+-(IBAction)showVCTransitions:(id)sender
+{
+    FromViewController *vc = [[FromViewController alloc]initWithNibName:@"FromViewController" bundle:nil];
+    [self.navigationController pushViewController:vc animated:false];
+}
+
+-(IBAction)showiBeacondemo:(id)sender
+{
+    iBeaconViewController *vc = [[iBeaconViewController alloc] initWithNibName:@"iBeaconViewController" bundle:nil];
+    [self.navigationController pushViewController:vc animated:FALSE];
+}
+
 -(void)fetchImageWithCompletionHandler:(void (^)(UIBackgroundFetchResult))completionHandler
 {
     //调用子UIViewController的方法刷新UI
     NSLog(@"main controller called fetch");
     [self.backgroundFetchViewController initImageViewWithCompletionHandler:completionHandler];
 }
+
 
 @end

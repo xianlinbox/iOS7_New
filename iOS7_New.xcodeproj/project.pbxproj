@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4910E15C18ADE7AC00F1C442 /* FromViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4910E15A18ADE7AC00F1C442 /* FromViewController.m */; };
+		4910E15D18ADE7AC00F1C442 /* FromViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4910E15B18ADE7AC00F1C442 /* FromViewController.xib */; };
+		4910E16118ADE7CD00F1C442 /* ToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4910E15F18ADE7CD00F1C442 /* ToViewController.m */; };
+		4910E16218ADE7CD00F1C442 /* ToViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4910E16018ADE7CD00F1C442 /* ToViewController.xib */; };
+		4999E05518AF805E0027D224 /* from.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4999E05318AF805E0027D224 /* from.jpg */; };
+		4999E05618AF805E0027D224 /* to.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4999E05418AF805E0027D224 /* to.jpg */; };
+		499DCA4F18B07CFC00136781 /* DismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 499DCA4C18B07CFC00136781 /* DismissAnimation.m */; };
+		499DCA5018B07CFC00136781 /* PresentAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 499DCA4E18B07CFC00136781 /* PresentAnimation.m */; };
+		499DCA5318B085B700136781 /* InteractAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 499DCA5218B085B700136781 /* InteractAnimation.m */; };
 		49ACB381188E50250013B0B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49ACB380188E50250013B0B1 /* Foundation.framework */; };
 		49ACB383188E50250013B0B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49ACB382188E50250013B0B1 /* CoreGraphics.framework */; };
 		49ACB385188E50250013B0B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49ACB384188E50250013B0B1 /* UIKit.framework */; };
@@ -31,8 +40,15 @@
 		49E2FA25188FE84600CE6BDF /* NewtonsCradleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2FA24188FE84600CE6BDF /* NewtonsCradleView.m */; };
 		49E2FA26188FE84600CE6BDF /* NewtonsCradleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E2FA24188FE84600CE6BDF /* NewtonsCradleView.m */; };
 		49E8E98C189125F80009A871 /* DynamicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E8E98B189125F80009A871 /* DynamicViewController.m */; };
+		49F4389818AB4D1800E99143 /* AVspeechViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F4389618AB4D1800E99143 /* AVspeechViewController.m */; };
+		49F4389918AB4D1800E99143 /* AVspeechViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F4389718AB4D1800E99143 /* AVspeechViewController.xib */; };
 		49F8AB40189CF349009D1985 /* UrlSessionDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F8AB3E189CF349009D1985 /* UrlSessionDemoViewController.m */; };
 		49F8AB41189CF349009D1985 /* UrlSessionDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 49F8AB3F189CF349009D1985 /* UrlSessionDemoViewController.xib */; };
+		DF2CD57819001052004DA663 /* CubeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DF2CD57719001052004DA663 /* CubeAnimation.m */; };
+		DF35EF7018C74864009E83E6 /* iBeaconViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF35EF6E18C74864009E83E6 /* iBeaconViewController.m */; };
+		DF35EF7118C74864009E83E6 /* iBeaconViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF35EF6F18C74864009E83E6 /* iBeaconViewController.xib */; };
+		DF78C10018C9C65100D6AAB3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF78C0FF18C9C65100D6AAB3 /* CoreBluetooth.framework */; };
+		DF78C10218C9C65900D6AAB3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF78C10118C9C65900D6AAB3 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +62,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4910E15918ADE7AC00F1C442 /* FromViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FromViewController.h; path = VCTransitions/ViewController/FromViewController.h; sourceTree = "<group>"; };
+		4910E15A18ADE7AC00F1C442 /* FromViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FromViewController.m; path = VCTransitions/ViewController/FromViewController.m; sourceTree = "<group>"; };
+		4910E15B18ADE7AC00F1C442 /* FromViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FromViewController.xib; path = VCTransitions/ViewController/FromViewController.xib; sourceTree = "<group>"; };
+		4910E15E18ADE7CD00F1C442 /* ToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToViewController.h; path = VCTransitions/ViewController/ToViewController.h; sourceTree = "<group>"; };
+		4910E15F18ADE7CD00F1C442 /* ToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToViewController.m; path = VCTransitions/ViewController/ToViewController.m; sourceTree = "<group>"; };
+		4910E16018ADE7CD00F1C442 /* ToViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ToViewController.xib; path = VCTransitions/ViewController/ToViewController.xib; sourceTree = "<group>"; };
+		4999E05318AF805E0027D224 /* from.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = from.jpg; path = VCTransitions/images/from.jpg; sourceTree = "<group>"; };
+		4999E05418AF805E0027D224 /* to.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = to.jpg; path = VCTransitions/images/to.jpg; sourceTree = "<group>"; };
+		499DCA4B18B07CFC00136781 /* DismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DismissAnimation.h; path = VCTransitions/Animations/DismissAnimation.h; sourceTree = "<group>"; };
+		499DCA4C18B07CFC00136781 /* DismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DismissAnimation.m; path = VCTransitions/Animations/DismissAnimation.m; sourceTree = "<group>"; };
+		499DCA4D18B07CFC00136781 /* PresentAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PresentAnimation.h; path = VCTransitions/Animations/PresentAnimation.h; sourceTree = "<group>"; };
+		499DCA4E18B07CFC00136781 /* PresentAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PresentAnimation.m; path = VCTransitions/Animations/PresentAnimation.m; sourceTree = "<group>"; };
+		499DCA5118B085B700136781 /* InteractAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InteractAnimation.h; path = VCTransitions/Animations/InteractAnimation.h; sourceTree = "<group>"; };
+		499DCA5218B085B700136781 /* InteractAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InteractAnimation.m; path = VCTransitions/Animations/InteractAnimation.m; sourceTree = "<group>"; };
 		49ACB37D188E50250013B0B1 /* iOS7_New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS7_New.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49ACB380188E50250013B0B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49ACB382188E50250013B0B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -76,9 +106,19 @@
 		49E2FA24188FE84600CE6BDF /* NewtonsCradleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewtonsCradleView.m; sourceTree = "<group>"; };
 		49E8E98A189125F80009A871 /* DynamicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicViewController.h; sourceTree = "<group>"; };
 		49E8E98B189125F80009A871 /* DynamicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicViewController.m; sourceTree = "<group>"; };
+		49F4389518AB4D1800E99143 /* AVspeechViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVspeechViewController.h; sourceTree = "<group>"; };
+		49F4389618AB4D1800E99143 /* AVspeechViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVspeechViewController.m; sourceTree = "<group>"; };
+		49F4389718AB4D1800E99143 /* AVspeechViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVspeechViewController.xib; sourceTree = "<group>"; };
 		49F8AB3D189CF349009D1985 /* UrlSessionDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UrlSessionDemoViewController.h; path = NSURLSession/ViewController/UrlSessionDemoViewController.h; sourceTree = "<group>"; };
 		49F8AB3E189CF349009D1985 /* UrlSessionDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UrlSessionDemoViewController.m; path = NSURLSession/ViewController/UrlSessionDemoViewController.m; sourceTree = "<group>"; };
 		49F8AB3F189CF349009D1985 /* UrlSessionDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UrlSessionDemoViewController.xib; path = NSURLSession/ViewController/UrlSessionDemoViewController.xib; sourceTree = "<group>"; };
+		DF2CD57619001052004DA663 /* CubeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CubeAnimation.h; path = VCTransitions/Animations/CubeAnimation.h; sourceTree = "<group>"; };
+		DF2CD57719001052004DA663 /* CubeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CubeAnimation.m; path = VCTransitions/Animations/CubeAnimation.m; sourceTree = "<group>"; };
+		DF35EF6D18C74864009E83E6 /* iBeaconViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iBeaconViewController.h; path = iBeacon/ViewController/iBeaconViewController.h; sourceTree = "<group>"; };
+		DF35EF6E18C74864009E83E6 /* iBeaconViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iBeaconViewController.m; path = iBeacon/ViewController/iBeaconViewController.m; sourceTree = "<group>"; };
+		DF35EF6F18C74864009E83E6 /* iBeaconViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = iBeaconViewController.xib; path = iBeacon/ViewController/iBeaconViewController.xib; sourceTree = "<group>"; };
+		DF78C0FF18C9C65100D6AAB3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		DF78C10118C9C65900D6AAB3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +126,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF78C10218C9C65900D6AAB3 /* CoreLocation.framework in Frameworks */,
+				DF78C10018C9C65100D6AAB3 /* CoreBluetooth.framework in Frameworks */,
 				49ACB383188E50250013B0B1 /* CoreGraphics.framework in Frameworks */,
 				49ACB387188E50250013B0B1 /* CoreData.framework in Frameworks */,
 				49ACB385188E50250013B0B1 /* UIKit.framework in Frameworks */,
@@ -107,6 +149,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4910E15718ADE6AD00F1C442 /* VCTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				4999E05718AF92F10027D224 /* Animations */,
+				4999E05218AF80380027D224 /* Images */,
+				4910E15818ADE6C500F1C442 /* ViewControllers */,
+			);
+			name = VCTransitions;
+			sourceTree = "<group>";
+		};
+		4910E15818ADE6C500F1C442 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4910E15918ADE7AC00F1C442 /* FromViewController.h */,
+				4910E15A18ADE7AC00F1C442 /* FromViewController.m */,
+				4910E15B18ADE7AC00F1C442 /* FromViewController.xib */,
+				4910E15E18ADE7CD00F1C442 /* ToViewController.h */,
+				4910E15F18ADE7CD00F1C442 /* ToViewController.m */,
+				4910E16018ADE7CD00F1C442 /* ToViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4999E05218AF80380027D224 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4999E05318AF805E0027D224 /* from.jpg */,
+				4999E05418AF805E0027D224 /* to.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4999E05718AF92F10027D224 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				499DCA4B18B07CFC00136781 /* DismissAnimation.h */,
+				499DCA4C18B07CFC00136781 /* DismissAnimation.m */,
+				499DCA4D18B07CFC00136781 /* PresentAnimation.h */,
+				499DCA4E18B07CFC00136781 /* PresentAnimation.m */,
+				499DCA5118B085B700136781 /* InteractAnimation.h */,
+				499DCA5218B085B700136781 /* InteractAnimation.m */,
+				DF2CD57619001052004DA663 /* CubeAnimation.h */,
+				DF2CD57719001052004DA663 /* CubeAnimation.m */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
 		49ACB374188E50250013B0B1 = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +218,8 @@
 		49ACB37F188E50250013B0B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DF78C10118C9C65900D6AAB3 /* CoreLocation.framework */,
+				DF78C0FF18C9C65100D6AAB3 /* CoreBluetooth.framework */,
 				49ACB380188E50250013B0B1 /* Foundation.framework */,
 				49ACB382188E50250013B0B1 /* CoreGraphics.framework */,
 				49ACB384188E50250013B0B1 /* UIKit.framework */,
@@ -141,6 +232,9 @@
 		49ACB388188E50260013B0B1 /* iOS7_New */ = {
 			isa = PBXGroup;
 			children = (
+				DF35EF6C18C747A6009E83E6 /* iBeacon */,
+				4910E15718ADE6AD00F1C442 /* VCTransitions */,
+				49F4389318AB4CD000E99143 /* AVSpeech */,
 				49C68B9118A59EC80042EE8A /* MultiTask */,
 				49F8AB3C189CF2E0009D1985 /* NSURLSession */,
 				49E2FA1C188FE28500CE6BDF /* UIDynamic */,
@@ -248,6 +342,24 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		49F4389318AB4CD000E99143 /* AVSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				49F4389418AB4CDB00E99143 /* ViewController */,
+			);
+			name = AVSpeech;
+			sourceTree = "<group>";
+		};
+		49F4389418AB4CDB00E99143 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49F4389518AB4D1800E99143 /* AVspeechViewController.h */,
+				49F4389618AB4D1800E99143 /* AVspeechViewController.m */,
+				49F4389718AB4D1800E99143 /* AVspeechViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
 		49F8AB3C189CF2E0009D1985 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +376,16 @@
 				49F8AB3F189CF349009D1985 /* UrlSessionDemoViewController.xib */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		DF35EF6C18C747A6009E83E6 /* iBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				DF35EF6D18C74864009E83E6 /* iBeaconViewController.h */,
+				DF35EF6E18C74864009E83E6 /* iBeaconViewController.m */,
+				DF35EF6F18C74864009E83E6 /* iBeaconViewController.xib */,
+			);
+			name = iBeacon;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,10 +432,11 @@
 		49ACB375188E50250013B0B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = xianlinbox;
 				TargetAttributes = {
 					49ACB37C188E50250013B0B1 = {
+						DevelopmentTeam = YFWXADMX4E;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -348,11 +471,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4999E05618AF805E0027D224 /* to.jpg in Resources */,
 				49F8AB41189CF349009D1985 /* UrlSessionDemoViewController.xib in Resources */,
+				DF35EF7118C74864009E83E6 /* iBeaconViewController.xib in Resources */,
 				49ACB38D188E50260013B0B1 /* InfoPlist.strings in Resources */,
 				49C68B9718A5A6030042EE8A /* BackgroundFetchViewController.xib in Resources */,
+				49F4389918AB4D1800E99143 /* AVspeechViewController.xib in Resources */,
+				4999E05518AF805E0027D224 /* from.jpg in Resources */,
+				4910E15D18ADE7AC00F1C442 /* FromViewController.xib in Resources */,
 				49ACB3BC188E5CB30013B0B1 /* MainViewController.xib in Resources */,
 				49ACB398188E50260013B0B1 /* Images.xcassets in Resources */,
+				4910E16218ADE7CD00F1C442 /* ToViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,14 +501,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				49E2FA25188FE84600CE6BDF /* NewtonsCradleView.m in Sources */,
+				499DCA4F18B07CFC00136781 /* DismissAnimation.m in Sources */,
+				DF35EF7018C74864009E83E6 /* iBeaconViewController.m in Sources */,
+				499DCA5018B07CFC00136781 /* PresentAnimation.m in Sources */,
+				49F4389818AB4D1800E99143 /* AVspeechViewController.m in Sources */,
+				DF2CD57819001052004DA663 /* CubeAnimation.m in Sources */,
 				49ACB393188E50260013B0B1 /* AppDelegate.m in Sources */,
 				49ACB38F188E50260013B0B1 /* main.m in Sources */,
 				49ACB396188E50260013B0B1 /* iOS7_New.xcdatamodeld in Sources */,
+				4910E15C18ADE7AC00F1C442 /* FromViewController.m in Sources */,
 				49F8AB40189CF349009D1985 /* UrlSessionDemoViewController.m in Sources */,
 				49ACB3BB188E5CB30013B0B1 /* MainViewController.m in Sources */,
 				49E2FA21188FE2F800CE6BDF /* BallView.m in Sources */,
 				49E8E98C189125F80009A871 /* DynamicViewController.m in Sources */,
+				499DCA5318B085B700136781 /* InteractAnimation.m in Sources */,
 				49C68B9618A5A6030042EE8A /* BackgroundFetchViewController.m in Sources */,
+				4910E16118ADE7CD00F1C442 /* ToViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,7 +564,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -466,7 +602,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -500,10 +635,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS7_New/iOS7_New-Prefix.pch";
 				INFOPLIST_FILE = "iOS7_New/iOS7_New-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -513,10 +651,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOS7_New/iOS7_New-Prefix.pch";
 				INFOPLIST_FILE = "iOS7_New/iOS7_New-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -524,7 +665,6 @@
 		49ACB3B3188E50260013B0B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7_New.app/iOS7_New";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -547,7 +687,6 @@
 		49ACB3B4188E50260013B0B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS7_New.app/iOS7_New";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
